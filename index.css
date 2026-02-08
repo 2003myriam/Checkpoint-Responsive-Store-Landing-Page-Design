@@ -44,6 +44,23 @@ nav ul{
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   transform: translateY(-0.5px);
 }
-
+.hero-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+.herosection-droit{
+  margin: 80px;
+}
+.herosection-droit h1{
+  color: gold;
+  margin: 20px 0px 40px 0px;
+  font-size: 60px;
+}
+.herosection-droit p{
+  font-size: 20px;
+}
 
  
