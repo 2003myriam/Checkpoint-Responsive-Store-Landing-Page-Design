@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: black;
+  color: gold;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+}
+.nav-gauche{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.nav-gauche li>button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  color: gold;
+  box-shadow: 0px 10px 25px rgba(255, 215, 0, 0.6);
+  font-size: 15px;
+  font-family: serif;
+  cursor: pointer;
+   transition:  all 0.35s ease;
+}
+.nav-gauche li > button:hover {
+  background-color: gold;
+  color: #111;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  transform: translateY(-0.5px);
+}
+
+
+ 
