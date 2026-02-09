@@ -5,6 +5,7 @@
 body{
   background-color: black;
 }
+/* ___________NAV BAR_____________ */
 nav ul{
   display: flex;
   flex-direction: row;
@@ -51,6 +52,7 @@ nav li>a{
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   transform: translateY(-0.5px);
 }
+/* _________________hero section_____________ */
 .hero-section{
   display: flex;
   flex-direction: row;
@@ -70,8 +72,8 @@ nav li>a{
 }
 .herosection-droit p{
   font-size: 20px;
-
 }
+/* ________________Produit section _________ */
 .Produit>p{
   color: white;
   font-size: 30px;
@@ -112,4 +114,35 @@ nav li>a{
   color: #111;
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
   transform: translateY(-0.5px);
+}
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+.apropos-gauche {
+color:white;
+margin-left: 100px;
+}
+.apropos-gauche h3{
+font-size: 40px;
+margin-bottom: 30px;
+}
+.apropos-gauche h2{
+  color: gold;
+  font-size: 30px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+.apropos-gauche p{
+  text-align: justify;
+  font-size: 20px;
+  margin: 30px 30px 30px 0px;
+}
+.apropos-gauche span{
+color: gold;
 }
