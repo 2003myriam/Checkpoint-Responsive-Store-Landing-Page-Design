@@ -187,6 +187,14 @@ form input,button,textarea{
   font-size: 15px;
   font-family: serif;
   cursor: pointer;
-   transition:  all 0.35s ease;
+  transition:  all 0.35s ease;
 }
- 
+/* __________footer__________ */
+footer{
+  background-color: black;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  margin-bottom: 20px;
+}
