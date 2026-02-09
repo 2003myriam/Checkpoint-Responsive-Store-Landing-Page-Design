@@ -32,6 +32,7 @@ nav li>a{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
   gap: 20px;
 }
 .nav-gauche li>button{
@@ -146,3 +147,46 @@ margin-bottom: 30px;
 .apropos-gauche span{
 color: gold;
 }
+/* _____________contact section_________ */
+.contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 80px;
+  margin: 100px 50px;
+}
+.contact-info h2{
+color: gold;
+font-size: 40px;
+}
+.contact-info p{
+color: white;
+font-size: 20px;
+padding: 20px;
+}
+.socials{
+  margin-left: 100px;
+}
+.socials a{
+   color: gold;
+   font-size: 20px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form input,button,textarea{
+  margin: 20px;
+  width: 500px;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: gold;
+  box-shadow: 0px 5px 5px rgba(255, 215, 0, 0.6);
+  font-size: 15px;
+  font-family: serif;
+  cursor: pointer;
+   transition:  all 0.35s ease;
+}
+ 
