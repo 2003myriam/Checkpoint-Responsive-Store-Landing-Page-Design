@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: black;
+}
 nav ul{
   display: flex;
   flex-direction: row;
@@ -13,6 +16,10 @@ nav ul{
   padding: 20px;
   font-size: 20px;
   cursor: pointer;
+}
+nav li>a{
+  text-decoration: none;
+  color: gold;
 }
 .logo{
   display: flex;
@@ -50,17 +57,59 @@ nav ul{
   justify-content: space-between;
   background-color: black;
   color: white;
+  margin-bottom: 110px;
 }
 .herosection-droit{
   margin: 80px;
 }
 .herosection-droit h1{
   color: gold;
-  margin: 20px 0px 40px 0px;
+  margin: 30px 0px 40px 0px;
   font-size: 60px;
+  text-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
 }
 .herosection-droit p{
   font-size: 20px;
-}
 
- 
+}
+.Produit>p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 100px;
+  margin-bottom: 40px;
+}
+ .produit-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 articles par ligne */
+  gap: 40px;
+  padding: 60px 200px;
+  color: aliceblue;
+  margin-left: 50px;
+}
+.produit-grid img{
+  width: 300px;
+  height: 300px;
+}
+.Produit h3{
+  color: gold;
+}
+.produit-grid div>button{
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  color: gold;
+  box-shadow: 0px 5px 15px rgba(255, 215, 0, 0.6);
+  font-size: 15px;
+  font-family: serif;
+  cursor: pointer;
+  transition:  all 0.35s ease;
+  margin: 5% 30%;
+}
+.produit-grid div>button:hover {
+  background-color: gold;
+  color: #111;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+  transform: translateY(-0.5px);
+}
