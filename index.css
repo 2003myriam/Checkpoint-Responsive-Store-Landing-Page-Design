@@ -4,6 +4,7 @@
 }
 body{
   background-color: black;
+  overflow-x: hidden;
 }
 /* ___________NAV BAR_____________ */
 nav ul{
@@ -117,13 +118,22 @@ nav li>a{
   transform: translateY(-0.5px);
 }
 /* ___________apropos_________ */
+.apropos {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 60px 5%;
+   
+}
+
 div.scroll-container {
   background-color: #333;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
 }
-
 div.scroll-container img {
   padding: 10px;
 }
@@ -206,7 +216,7 @@ footer{
    gap: 70px;
 }
 .apropos{
-  margin-left: 100px;
+  margin-left: 0px;
 }
 div.scroll-container {
   margin-left: 100px;
@@ -227,5 +237,27 @@ form input,button,textarea{
 }
 footer{
   margin-left: 150px;
+}
+}
+/* ________Mobile L___________ */
+@media (max-width: 600px) {
+.produit-grid {
+  grid-template-columns: repeat(1, 1fr); /* 1 par ligne */
+  margin-left: 30%;
+}
+.apropos {
+  padding: 60px 0%;
+   
+}
+.apropos-gauche {
+  min-width: 800px;
+  }
+div.scroll-container {
+  width: 800px;
+}
+footer{
+  margin-left: 0px;
+  width: 1000px;
+  text-align: center;
 }
 }
